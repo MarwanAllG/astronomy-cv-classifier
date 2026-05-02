@@ -6,7 +6,7 @@ This project uses a deep learning model to classify astronomical images into 7 c
 
 | asteroid | black hole | comet | galaxy | nebula | planet | star |
 |----------|------------|-------|--------|--------|--------|------|
-| ![asteroid](asteroid.png) | ![black hole](black%20hole.png) | ![comet](comet.png) | ![galaxy](galaxy.png) | ![nebula](nebula.png) | ![planet](planet.png) | ![star](star.png) |
+| ![asteroid](sample_images/asteroid.png) | ![black hole](sample_images/black%20hole.png) | ![comet](sample_images/comet.png) | ![galaxy](sample_images/galaxy.png) | ![nebula](sample_images/nebula.png) | ![planet](sample_images/planet.png) | ![star](sample_images/star.png) |
 
 ## Dataset
 
@@ -32,7 +32,7 @@ The trained model is served via FastAPI for real-time predictions.
 
 ### Example 1
 
-Input image: ![test_1](test_1_image.png)
+Input image: ![test_1](sample_images/test_1_image.png)
 
 Command:
 ```
@@ -46,7 +46,7 @@ Response:
 
 ### Example 2
 
-Input image: ![test_2](test_2_image.png)
+Input image: ![test_2](sample_images/test_2_image.png)
 
 Command:
 ```
